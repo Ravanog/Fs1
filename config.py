@@ -58,12 +58,12 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
+USER_REPLY_TEXT = "Hey Bro/Sis Don't send me messages directly.... I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
 
-LOG_FILE_NAME = "filesharingbot.txt"
+LOG_FILE_NAME = "HK_FS_Bot.txt"
 
 logging.basicConfig(
     level=logging.INFO,
