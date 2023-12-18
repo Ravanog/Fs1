@@ -1,3 +1,3 @@
 from bot import Bot
-
-Bot().run()
+app = Bot()
+app.run()
